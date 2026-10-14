@@ -1,0 +1,28 @@
+{
+  "neutral_overlaps": [],
+  "sampled_angles": {
+    "roll": [
+      -30,
+      -15,
+      0,
+      15,
+      30
+    ],
+    "pitch": [
+      -10,
+      0,
+      30,
+      60,
+      90
+    ],
+    "yaw": [
+      -75,
+      0,
+      75
+    ]
+  },
+  "configurations": 75,
+  "pair_evaluations": 4275,
+  "motion_overlaps": [],
+  "limitations": "Rigid solids only. No cables, wire stiffness, screw heads, tolerances or load test; finite samples do not establish continuous collision freedom."
+}

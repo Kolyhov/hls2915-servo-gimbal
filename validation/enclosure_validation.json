@@ -1,0 +1,42 @@
+{
+  "parts": [
+    {
+      "id": "E01_ceiling_base",
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 24945.684
+    },
+    {
+      "id": "E02_removable_cover",
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 30490.391
+    },
+    {
+      "id": "E03_ESP_retainer",
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 330.691
+    },
+    {
+      "id": "E04_IMU_retainer",
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 240.451
+    },
+    {
+      "id": "C01_ESP_rail",
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 1632.384
+    },
+    {
+      "id": "C02_IMU_rail",
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 995.676
+    }
+  ],
+  "collisions": [],
+  "electronics_collisions": []
+}

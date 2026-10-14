@@ -1,0 +1,8 @@
+*.stl binary
+*.3mf binary
+*.png binary
+*.gif binary
+*.pdf binary
+*.step text eol=lf
+*.md text eol=lf
+*.py text eol=lf

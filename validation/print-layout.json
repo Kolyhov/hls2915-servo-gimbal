@@ -1,0 +1,350 @@
+{
+  "file": "Gimbal_Enclosure_AllParts_H2S.stl",
+  "units": "mm",
+  "parts": 13,
+  "connected_shells": 13,
+  "triangles": 75246,
+  "bed_mm": [
+    340,
+    320
+  ],
+  "layout_extent_mm": [
+    310.0,
+    218.5,
+    44.0
+  ],
+  "minimum_part_gap_mm": 18.0,
+  "centered": true,
+  "all_parts_touch_bed": true,
+  "supports_required": [
+    "G01",
+    "G03",
+    "G05",
+    "G07"
+  ],
+  "no_electronics_no_fasteners_no_fit_coupons": true,
+  "records": [
+    {
+      "id": "E01_ceiling_base",
+      "source": "E01_ceiling_base",
+      "rotation_from_assembly": null,
+      "min_mm": [
+        15.0,
+        50.75,
+        0.0
+      ],
+      "max_mm": [
+        127.0,
+        128.75,
+        15.0
+      ],
+      "triangles": 11676,
+      "bed_contact_mm2": 7248.81,
+      "volume_mm3": 24945.75,
+      "watertight": true,
+      "connected_shells": 1,
+      "min_z": 0.0
+    },
+    {
+      "id": "E02_removable_cover",
+      "source": "E02_removable_cover",
+      "rotation_from_assembly": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0
+        ],
+        180
+      ],
+      "min_mm": [
+        145.0,
+        50.75,
+        0.0
+      ],
+      "max_mm": [
+        235.0,
+        128.75,
+        22.2
+      ],
+      "triangles": 4936,
+      "bed_contact_mm2": 6853.93,
+      "volume_mm3": 30490.52,
+      "watertight": true,
+      "connected_shells": 1,
+      "min_z": 0.0
+    },
+    {
+      "id": "G01",
+      "source": "G01",
+      "rotation_from_assembly": null,
+      "min_mm": [
+        253.0,
+        50.75,
+        0.0
+      ],
+      "max_mm": [
+        325.0,
+        124.75,
+        24.85
+      ],
+      "triangles": 10000,
+      "bed_contact_mm2": 4449.67,
+      "volume_mm3": 30925.32,
+      "watertight": true,
+      "connected_shells": 1,
+      "min_z": 0.0
+    },
+    {
+      "id": "G03",
+      "source": "G03",
+      "rotation_from_assembly": [
+        [
+          1,
+          0,
+          0
+        ],
+        90
+      ],
+      "min_mm": [
+        15.0,
+        146.75,
+        0.0
+      ],
+      "max_mm": [
+        85.99999,
+        205.25,
+        41.99855
+      ],
+      "triangles": 8842,
+      "bed_contact_mm2": 453.43,
+      "volume_mm3": 19583.13,
+      "watertight": true,
+      "connected_shells": 1,
+      "min_z": 0.0
+    },
+    {
+      "id": "G05",
+      "source": "G05",
+      "rotation_from_assembly": null,
+      "min_mm": [
+        104.0,
+        146.75,
+        0.0
+      ],
+      "max_mm": [
+        159.5,
+        186.74629,
+        36.0
+      ],
+      "triangles": 8836,
+      "bed_contact_mm2": 453.44,
+      "volume_mm3": 15959.14,
+      "watertight": true,
+      "connected_shells": 1,
+      "min_z": 0.0
+    },
+    {
+      "id": "G07",
+      "source": "G07",
+      "rotation_from_assembly": [
+        [
+          0,
+          1,
+          0
+        ],
+        90
+      ],
+      "min_mm": [
+        177.5,
+        146.75,
+        0.0
+      ],
+      "max_mm": [
+        267.5,
+        191.55,
+        44.0
+      ],
+      "triangles": 12736,
+      "bed_contact_mm2": 1129.92,
+      "volume_mm3": 20149.12,
+      "watertight": true,
+      "connected_shells": 1,
+      "min_z": 0.0
+    },
+    {
+      "id": "G02",
+      "source": "G02",
+      "rotation_from_assembly": [
+        [
+          1,
+          0,
+          0
+        ],
+        180
+      ],
+      "min_mm": [
+        15.0,
+        223.25,
+        0.0
+      ],
+      "max_mm": [
+        62.0,
+        259.25,
+        15.15
+      ],
+      "triangles": 4700,
+      "bed_contact_mm2": 1135.92,
+      "volume_mm3": 11752.12,
+      "watertight": true,
+      "connected_shells": 1,
+      "min_z": 0.0
+    },
+    {
+      "id": "G04",
+      "source": "G04",
+      "rotation_from_assembly": [
+        [
+          0,
+          1,
+          0
+        ],
+        90
+      ],
+      "min_mm": [
+        80.0,
+        223.25,
+        0.0
+      ],
+      "max_mm": [
+        127.0,
+        259.25,
+        15.15
+      ],
+      "triangles": 4700,
+      "bed_contact_mm2": 1135.92,
+      "volume_mm3": 11752.12,
+      "watertight": true,
+      "connected_shells": 1,
+      "min_z": 0.0
+    },
+    {
+      "id": "G06",
+      "source": "G06",
+      "rotation_from_assembly": [
+        [
+          1,
+          0,
+          0
+        ],
+        -90
+      ],
+      "min_mm": [
+        145.0,
+        223.25,
+        0.0
+      ],
+      "max_mm": [
+        192.0,
+        259.25,
+        15.15
+      ],
+      "triangles": 4700,
+      "bed_contact_mm2": 1135.92,
+      "volume_mm3": 11752.12,
+      "watertight": true,
+      "connected_shells": 1,
+      "min_z": 0.0
+    },
+    {
+      "id": "G08_A",
+      "source": "G08",
+      "rotation_from_assembly": null,
+      "min_mm": [
+        210.0,
+        223.25,
+        0.0
+      ],
+      "max_mm": [
+        236.0,
+        237.25,
+        5.4
+      ],
+      "triangles": 1028,
+      "bed_contact_mm2": 350.8,
+      "volume_mm3": 1894.29,
+      "watertight": true,
+      "connected_shells": 1,
+      "min_z": 0.0
+    },
+    {
+      "id": "G08_B",
+      "source": "G08",
+      "rotation_from_assembly": null,
+      "min_mm": [
+        210.0,
+        255.25,
+        0.0
+      ],
+      "max_mm": [
+        236.0,
+        269.25,
+        5.4
+      ],
+      "triangles": 1028,
+      "bed_contact_mm2": 350.8,
+      "volume_mm3": 1894.29,
+      "watertight": true,
+      "connected_shells": 1,
+      "min_z": 0.0
+    },
+    {
+      "id": "E03_ESP_retainer",
+      "source": "E03_ESP_retainer",
+      "rotation_from_assembly": null,
+      "min_mm": [
+        254.0,
+        223.25,
+        0.0
+      ],
+      "max_mm": [
+        277.4,
+        227.95,
+        3.2
+      ],
+      "triangles": 1032,
+      "bed_contact_mm2": 103.34,
+      "volume_mm3": 330.7,
+      "watertight": true,
+      "connected_shells": 1,
+      "min_z": 0.0
+    },
+    {
+      "id": "E04_IMU_retainer",
+      "source": "E04_IMU_retainer",
+      "rotation_from_assembly": null,
+      "min_mm": [
+        254.0,
+        245.95,
+        0.0
+      ],
+      "max_mm": [
+        271.4,
+        250.65,
+        3.2
+      ],
+      "triangles": 1032,
+      "bed_contact_mm2": 75.14,
+      "volume_mm3": 240.46,
+      "watertight": true,
+      "connected_shells": 1,
+      "min_z": 0.0
+    }
+  ],
+  "slicer_validation": "Geometry and layout checked; not a sliced printer job.",
+  "printer_source": "https://store.bblcdn.com/s7/default/3f91ec86de1a4ce28fe8fb660b95cd3e/h2s.pdf"
+}
